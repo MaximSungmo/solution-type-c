@@ -2,6 +2,10 @@ package problem02;
 
 public class MyService extends BaseService {
 		
+		public MyService() {
+			super();
+
+		}
 		@Override
 		public void service(String state) {
 			if(state.equals("낮")||state.equals("밤")) {
